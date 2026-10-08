@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IRON-MAN | Soldadura y Estructuras Metálicas</title>
+
+    <meta name="description" content="IRON-MAN - Fabricación e instalación de estructuras metálicas, soldadura y trabajos personalizados.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-im sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="img/logo.jpeg" alt="IRON-MAN Soldadura" class="logo">
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar menú">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#trabajos">Trabajos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                <li class="nav-item ms-lg-2">
+                    <a class="btn btn-im-primary" href="#cotizar">
+                        <i class="bi bi-file-earmark-text me-1"></i>
+                        Solicitar cotización
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- ===================== HERO ===================== -->
+<header id="inicio" class="hero-im">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container position-relative">
+        <div class="row align-items-center min-vh-75">
+            <div class="col-lg-7">
+
+                <span class="hero-tag">SOLDADURA Y ESTRUCTURAS METÁLICAS</span>
+
+                <h1 class="hero-title">
+                    FABRICANDO
+                    <span>IDEAS EN METAL</span>
+                </h1>
+
+                <p class="hero-text">
+                    Diseñamos, fabricamos e instalamos estructuras
+                    metálicas personalizadas para hogares, negocios
+                    y proyectos.
+                </p>
+
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="#cotizar" class="btn btn-im-primary btn-lg">
+                        Solicitar cotización
+                        <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                    <a href="#trabajos" class="btn btn-im-outline btn-lg">
+                        Ver nuestros trabajos
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+<!-- ===================== FRANJA DE CONFIANZA ===================== -->
+<section class="trust-section">
+    <div class="container">
+        <div class="row g-4 text-center">
+
+            <div class="col-6 col-lg-3">
+                <div class="trust-item">
+                    <i class="bi bi-calendar3"></i>
+                    <strong>Desde 2011</strong>
+                    <span>Experiencia</span>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="trust-item">
+                    <i class="bi bi-tools"></i>
+                    <strong>Fabricación</strong>
+                    <span>A medida</span>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="trust-item">
+                    <i class="bi bi-rulers"></i>
+                    <strong>Diseño</strong>
+                    <span>Personalizado</span>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="trust-item">
+                    <i class="bi bi-shield-check"></i>
+                    <strong>Instalación</strong>
+                    <span>Profesional</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ===================== SERVICIOS ===================== -->
+<section id="servicios" class="section-im">
+    <div class="container">
+
+        <div class="section-heading text-center">
+            <span class="section-kicker">LO QUE HACEMOS</span>
+            <h2>NUESTROS SERVICIOS</h2>
+            <p>
+                Soluciones metálicas diseñadas de acuerdo con
+                las necesidades de cada cliente.
+            </p>
+        </div>
+
+        <div class="row g-4 mt-2">
+
+            <!-- PHP: estas tarjetas pueden generarse desde la tabla "servicios". -->
+
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card h-100">
+                    <div class="service-icon"><i class="bi bi-grid-3x3-gap"></i></div>
+                    <h3>Protectores metálicos</h3>
+                    <p>
+                        Fabricación de protectores para ventanas,
+                        puertas y otros espacios del hogar o negocio.
+                    </p>
+                    <a href="#cotizar" class="service-link">
+                        Solicitar servicio <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card h-100">
+                    <div class="service-icon"><i class="bi bi-house-up"></i></div>
+                    <h3>Techos metálicos</h3>
+                    <p>
+                        Fabricación e instalación de techos,
+                        coberturas y estructuras para diferentes espacios.
+                    </p>
+                    <a href="#cotizar" class="service-link">
+                        Solicitar servicio <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card h-100">
+                    <div class="service-icon"><i class="bi bi-building"></i></div>
+                    <h3>Estructuras metálicas</h3>
+                    <p>
+                        Diseño y fabricación de estructuras resistentes
+                        para proyectos residenciales y comerciales.
+                    </p>
+                    <a href="#cotizar" class="service-link">
+                        Solicitar servicio <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card h-100">
+                    <div class="service-icon"><i class="bi bi-door-open"></i></div>
+                    <h3>Puertas y portones</h3>
+                    <p>
+                        Fabricación de puertas y portones metálicos
+                        según las dimensiones y necesidades del cliente.
+                    </p>
+                    <a href="#cotizar" class="service-link">
+                        Solicitar servicio <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card h-100">
+                    <div class="service-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                    <h3>Mantenimiento</h3>
+                    <p>
+                        Reparación, mantenimiento y mejora de estructuras
+                        metálicas existentes.
+                    </p>
+                    <a href="#cotizar" class="service-link">
+                        Solicitar servicio <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card service-card-featured h-100">
+                    <div class="service-icon"><i class="bi bi-pencil-square"></i></div>
+                    <h3>Trabajos personalizados</h3>
+                    <p>
+                        ¿Tienes una idea? Cuéntanos tu proyecto y
+                        evaluaremos una solución personalizada.
+                    </p>
+                    <a href="#cotizar" class="service-link">
+                        Cuéntanos tu idea <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ===================== NOSOTROS ===================== -->
+<section id="nosotros" class="about-section">
+    <div class="container">
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+                <div class="about-image">
+
+                    <img src="img/hero.jpeg" alt="Trabajo de soldadura IRON-MAN" loading="lazy">
+
+                    <div class="about-badge">
+                        <strong>15+</strong>
+                        <span>años de experiencia</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+
+                <span class="section-kicker">SOBRE NOSOTROS</span>
+
+                <h2>EXPERIENCIA QUE SE CONVIERTE EN RESULTADOS</h2>
+
+                <p>
+                    En IRON-MAN nos dedicamos a la fabricación,
+                    soldadura e instalación de estructuras metálicas
+                    para diferentes tipos de proyectos.
+                </p>
+
+                <p>
+                    Nuestro objetivo es transformar las ideas de
+                    nuestros clientes en soluciones funcionales,
+                    resistentes y adaptadas a sus necesidades.
+                </p>
+
+                <div class="about-list">
+                    <div><i class="bi bi-check-circle-fill"></i> Trabajo personalizado</div>
+                    <div><i class="bi bi-check-circle-fill"></i> Fabricación e instalación</div>
+                    <div><i class="bi bi-check-circle-fill"></i> Atención según el proyecto</div>
+                    <div><i class="bi bi-check-circle-fill"></i> Experiencia desde 2011</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ===================== TRABAJOS ===================== -->
+<section id="trabajos" class="section-im section-light">
+    <div class="container">
+
+        <div class="section-heading text-center">
+            <span class="section-kicker">PORTAFOLIO</span>
+            <h2>TRABAJOS DESTACADOS</h2>
+            <p>Algunos de los trabajos realizados por IRON-MAN.</p>
+        </div>
+
+        <div class="portfolio-filters text-center mb-4">
+            <button class="filter-btn active" data-filter="todos">Todos</button>
+            <button class="filter-btn" data-filter="protectores">Protectores</button>
+            <button class="filter-btn" data-filter="techos">Techos</button>
+            <button class="filter-btn" data-filter="estructuras">Estructuras</button>
+            <button class="filter-btn" data-filter="personalizados">Personalizados</button>
+        </div>
+
+        <div class="row g-4" id="portfolioContainer">
+
+            <!-- PHP: estos trabajos pueden obtenerse de las tablas "trabajos" y "trabajo_imagenes". -->
+
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="protectores">
+                <article class="work-card">
+                    <div class="work-image">
+                        <img src="img/trabajo-1.jpeg" alt="Protector metálico" loading="lazy">
+                        <span class="work-category">Protectores</span>
+                    </div>
+                    <div class="work-content">
+                        <h3>Protector metálico</h3>
+                        <p>Fabricación personalizada para vivienda.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="techos">
+                <article class="work-card">
+                    <div class="work-image">
+                        <img src="img/trabajo-2.jpeg" alt="Techo metálico" loading="lazy">
+                        <span class="work-category">Techos</span>
+                    </div>
+                    <div class="work-content">
+                        <h3>Techo metálico</h3>
+                        <p>Estructura metálica para cobertura.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="estructuras">
+                <article class="work-card">
+                    <div class="work-image">
+                        <img src="img/trabajo-3.jpeg" alt="Estructura metálica" loading="lazy">
+                        <span class="work-category">Estructuras</span>
+                    </div>
+                    <div class="work-content">
+                        <h3>Estructura metálica</h3>
+                        <p>Fabricación de estructura para proyecto.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="protectores">
+                <article class="work-card">
+                    <div class="work-image">
+                        <img src="img/trabajo-4.jpeg" alt="Protector para ventana" loading="lazy">
+                        <span class="work-category">Protectores</span>
+                    </div>
+                    <div class="work-content">
+                        <h3>Protector para ventana</h3>
+                        <p>Diseño y fabricación a medida.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="personalizados">
+                <article class="work-card">
+                    <div class="work-image">
+                        <img src="img/trabajo-5.jpeg" alt="Trabajo personalizado" loading="lazy">
+                        <span class="work-category">Personalizados</span>
+                    </div>
+                    <div class="work-content">
+                        <h3>Proyecto personalizado</h3>
+                        <p>Solución diseñada según requerimientos.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="estructuras">
+                <article class="work-card">
+                    <div class="work-image">
+                        <img src="img/trabajo-6.jpeg" alt="Estructura para negocio" loading="lazy">
+                        <span class="work-category">Estructuras</span>
+                    </div>
+                    <div class="work-content">
+                        <h3>Estructura para negocio</h3>
+                        <p>Fabricación e instalación.</p>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ===================== CÓMO TRABAJAMOS ===================== -->
+<section class="process-section">
+    <div class="container">
+
+        <div class="section-heading text-center">
+            <span class="section-kicker">PROCESO</span>
+            <h2>¿CÓMO TRABAJAMOS?</h2>
+        </div>
+
+        <div class="row g-4 mt-2">
+
+            <div class="col-md-6 col-lg-3">
+                <div class="process-card">
+                    <span class="process-number">01</span>
+                    <i class="bi bi-chat-dots"></i>
+                    <h3>Solicitas</h3>
+                    <p>Nos cuentas qué trabajo necesitas realizar.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="process-card">
+                    <span class="process-number">02</span>
+                    <i class="bi bi-search"></i>
+                    <h3>Evaluamos</h3>
+                    <p>Revisamos las características de tu proyecto.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="process-card">
+                    <span class="process-number">03</span>
+                    <i class="bi bi-file-earmark-check"></i>
+                    <h3>Cotizamos</h3>
+                    <p>Elaboramos una propuesta de acuerdo con tus necesidades.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="process-card">
+                    <span class="process-number">04</span>
+                    <i class="bi bi-hammer"></i>
+                    <h3>Ejecutamos</h3>
+                    <p>Fabricamos e instalamos el proyecto acordado.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ===================== CTA ===================== -->
+<section id="cotizar" class="cta-section">
+    <div class="container">
+        <div class="cta-box">
+
+            <div>
+                <span class="section-kicker">¿TIENES UN PROYECTO?</span>
+                <h2>CUÉNTANOS TU IDEA</h2>
+                <p>
+                    Solicita una cotización y cuéntanos qué necesitas.
+                    Nuestro equipo podrá evaluar tu proyecto.
+                </p>
+            </div>
+
+            <!-- Más adelante este botón puede dirigir a: solicitar-cotizacion.php -->
+            <a href="solicitar-cotizacion.html" class="btn btn-im-primary btn-lg">
+                Solicitar cotización
+                <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer-im">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-lg-5">
+                <img src="img/logo.jpeg" alt="IRON-MAN" class="footer-logo">
+                <p class="footer-description">
+                    Fabricación, soldadura e instalación de
+                    estructuras metálicas.
+                </p>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <h4>Navegación</h4>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-4">
+                <h4>Contacto</h4>
+
+                <!-- PHP: estos datos pueden obtenerse de una tabla de configuración. -->
+                <ul class="footer-contact">
+                    <li><i class="bi bi-telephone"></i><span>+51 XXX XXX XXX</span></li>
+                    <li><i class="bi bi-envelope"></i><span>contacto@ironman.com</span></li>
+                    <li><i class="bi bi-geo-alt"></i><span>Chincha, Ica - Perú</span></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <span>© <span id="currentYear"></span> IRON-MAN. Todos los derechos reservados.</span>
+            <span>Fabricando ideas.</span>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JavaScript propio -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
